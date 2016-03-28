@@ -9,8 +9,8 @@ import pandas as pd
 import json
 
 ## initialization of varibles
-datafile="C:\\Users\\sonatushi\\OneDrive for Business\\Cornell Tech\\airports.csv"
-out_json_file ="C:\\Users\\sonatushi\\OneDrive for Business\\Cornell Tech\\airport_json.json"
+datafile="airports.csv"
+out_json_file ="airport_json.json"
  
 ## read Data file 
 airport_df = pd.read_csv(datafile, index_col=0, parse_dates=True)
